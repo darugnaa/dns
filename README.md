@@ -4,16 +4,16 @@ List of addresses to include in a machine's "hosts" file for a better life
 The *hosts* file in Windows is located in the following path `%SystemRoot%\system32\drivers\etc\hosts`.
 After editing the file (you will need Administrator's privileges) refresh the DNS cache with `ipconfig /flushdns`.
 
-# Block some spotify ds
-0.0.0.0   pubads.g.doubleclick.net
-0.0.0.0   securepubads.g.doubleclick.net
+
+    # Block Spotify banner ads
+    0.0.0.0   pubads.g.doubleclick.net
+    0.0.0.0   securepubads.g.doubleclick.net
+ 
+    # Block Skype banner ads
+    0.0.0.0   rad.msn.com
+    0.0.0.0   g.msn.com
 
 
-
-0.0.0.0 rad.msn.com
-
-127.0.0.1     rad.msn.com
-127.0.0.1     g.msn.com
 127.0.0.1     live.rads.msn.com
 127.0.0.1     ads1.msn.com
 127.0.0.1     static.2mdn.net
