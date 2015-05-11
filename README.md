@@ -5,13 +5,16 @@ The *hosts* file in Windows is located in the following path `%SystemRoot%\syste
 After editing the file (you will need Administrator's privileges) refresh the DNS cache with `ipconfig /flushdns`.
 
 
+    # Block generic ads
+    0.0.0.0     ad.doubleclick.net
+    
     # Block Spotify banner ads
-    0.0.0.0   pubads.g.doubleclick.net
-    0.0.0.0   securepubads.g.doubleclick.net
+    0.0.0.0     pubads.g.doubleclick.net
+    0.0.0.0     securepubads.g.doubleclick.net
  
     # Block Skype banner ads
-    0.0.0.0   rad.msn.com
-    0.0.0.0   g.msn.com
+    0.0.0.0     rad.msn.com
+    0.0.0.0     g.msn.com
 
 
 127.0.0.1     live.rads.msn.com
@@ -20,7 +23,6 @@ After editing the file (you will need Administrator's privileges) refresh the DN
 127.0.0.1     ads2.msads.net
 127.0.0.1     a.ads2.msads.net
 127.0.0.1     b.ads2.msads.net
-127.0.0.1     ad.doubleclick.net
 127.0.0.1     ac3.msn.com
 127.0.0.1     ec.atdmt.com
 127.0.0.1     msntest.serving-sys.com
