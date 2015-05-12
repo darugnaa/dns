@@ -1,8 +1,11 @@
 # dns
 List of addresses to include in a machine's "hosts" file for a better life.
 
-The *hosts* file in Windows is located in the following path `%SystemRoot%\system32\drivers\etc\hosts`.
+The *hosts* file in **Windows** is located in the following path `%SystemRoot%\system32\drivers\etc\hosts`.
 After editing the file (you will need Administrator's privileges) refresh the DNS cache with `ipconfig /flushdns`.
+
+The *hosts* file in **OSX** is located in the following path `/etc/hosts`.  
+The file can be edited from Terminal with `sudo vim /etc/hosts` or `sudo nano /etc/hosts`.
 
 
     # Block generic ads
@@ -35,4 +38,5 @@ List taken from http://superuser.com/questions/547807/how-to-disable-the-skype-a
     127.0.0.1     apps.skype.com
 
 ### 127.0.0.1 vs 0.0.0.0
-Which value to use? I'm doing some research on the topic.
+Which value to use? I'm doing some research on the topic.  
+`127.0.0.1` is the local machine itself.
