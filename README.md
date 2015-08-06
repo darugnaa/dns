@@ -25,6 +25,20 @@ The file can be edited from Terminal with `sudo vim /etc/hosts` or `sudo nano /e
     127.0.0.1	partnerad.l.doubleclick.net
     127.0.0.1	pubads.g.doubleclick.net
     127.0.0.1	stats.g.doubleclick.net
+    
+    # General blocking
+    127.0.0.1       b.scorecardresearch.com
+    127.0.0.1       condenastitalia01.wt-eu02.net
+    127.0.0.1       cx.atdmt.com
+    127.0.0.1       sync.liverail.com
+    127.0.0.1       tvzap.kataweb.it
+    127.0.0.1       imageceu1.247realmedia.com
+    127.0.0.1       pixel-geo.prfct.co
+    127.0.0.1       secure.adnxs.com
+    127.0.0.1       imp2.bizographics.com
+    127.0.0.1       ad.crwdcntrl.net
+    127.0.0.1       cdn.krxd.net
+    127.0.0.1       cdn.gigya.com
 
 I didn't include the following addresses (yet).  
 List taken from http://superuser.com/questions/547807/how-to-disable-the-skype-ads-advertisement
@@ -43,18 +57,6 @@ List taken from http://superuser.com/questions/547807/how-to-disable-the-skype-a
     127.0.0.1     cdn.atdmt.com
     127.0.0.1     apps.skype.com
     
-List not included yet
-
-    127.0.0.1	b.scorecardresearch.com
-    127.0.0.1	condenastitalia01.wt-eu02.net
-    127.0.0.1	cx.atdmt.com
-    127.0.0.1	sync.liverail.com
-    127.0.0.1	tvzap.kataweb.it
-    127.0.0.1	imageceu1.247realmedia.com
-    127.0.0.1	pixel-geo.prfct.co
-    127.0.0.1	secure.adnxs.com
-    127.0.0.1	imp2.bizographics.com
-    127.0.0.1	ad.crwdcntrl.net
 
 ### 127.0.0.1 vs 0.0.0.0
 Which value to use? I'm doing some research on the topic.  
