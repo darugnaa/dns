@@ -22,10 +22,11 @@ The file can be edited from Terminal with `sudo vim /etc/hosts` or `sudo nano /e
 
     # DoubleClick
     127.0.0.1	ad.doubleclick.net
+    127.0.0.1	static.doubleclick.net
     127.0.0.1	partnerad.l.doubleclick.net
     127.0.0.1	pubads.g.doubleclick.net
     127.0.0.1	stats.g.doubleclick.net
-    
+
     # General blocking
     127.0.0.1       b.scorecardresearch.com
     127.0.0.1       condenastitalia01.wt-eu02.net
