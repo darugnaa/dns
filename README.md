@@ -8,6 +8,7 @@ The *hosts* file in **OSX** is located in the following path `/etc/hosts`.
 The file can be edited from Terminal with `sudo vim /etc/hosts` or `sudo nano /etc/hosts`.
 
 
+    ## Invasive Adware
     # Block Spotify banner ads
     127.0.0.1     pubads.g.doubleclick.net
     127.0.0.1     securepubads.g.doubleclick.net
@@ -17,6 +18,10 @@ The file can be edited from Terminal with `sudo vim /etc/hosts` or `sudo nano /e
     127.0.0.1   g.msn.com
     127.0.0.1   live.rads.msn.com
     
+    # BitComet (torrent client)
+    127.0.0.1	inside.bitcomet.com
+    
+    ## Tracking/ads/unwanted content
     # Google ADS
     127.0.0.1	partner.googleadservices.com
 
