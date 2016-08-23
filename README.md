@@ -12,12 +12,19 @@ The file can be edited from Terminal with `sudo vim /etc/hosts` or `sudo nano /e
     # Block Spotify banner ads
     127.0.0.1     pubads.g.doubleclick.net
     127.0.0.1     securepubads.g.doubleclick.net
+    
+    # Spotify 1.0.36.124.g1cba1920
+    127.0.0.1	video-ad-stats.googlesyndication.com
+    127.0.0.1	tpc.googlesyndication.com
+    127.0.0.1	pagead2.googlesyndication.com
+    127.0.0.1	redirector.gvt1.com
+    127.0.0.1	adeventtracker.spotify.com
  
     # Block Skype banner ads
     127.0.0.1   rad.msn.com
     127.0.0.1   g.msn.com
     127.0.0.1   live.rads.msn.com
-    
+    127.0.0.1   apps.skype.com
     # BitComet (torrent client)
     127.0.0.1	inside.bitcomet.com
     
