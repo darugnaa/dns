@@ -25,6 +25,15 @@ The file can be edited from Terminal with `sudo vim /etc/hosts` or `sudo nano /e
     127.0.0.1   g.msn.com
     127.0.0.1   live.rads.msn.com
     127.0.0.1   apps.skype.com
+    # SKYPE NEW  7.27.64.101
+    127.0.0.1   s0.2mdn.net
+    127.0.0.1   s1.2mdn.net
+    127.0.0.1   ad.doubleclick.net
+    127.0.0.1   secure.adnxs.com
+    127.0.0.1   ib.adnxs.com
+    127.0.0.1   pixel.alephd.com
+    127.0.0.1   cdn.at.atwola.com
+    
     # BitComet (torrent client)
     127.0.0.1	inside.bitcomet.com
     
@@ -65,12 +74,10 @@ List taken from http://superuser.com/questions/547807/how-to-disable-the-skype-a
     127.0.0.1     ac3.msn.com
     127.0.0.1     ec.atdmt.com
     127.0.0.1     msntest.serving-sys.com
-    127.0.0.1     sO.2mdn.net
     127.0.0.1     aka-cdn-ns.adtech.de
     127.0.0.1     secure.flashtalking.com
     127.0.0.1     cdn.atdmt.com
-    127.0.0.1     apps.skype.com
-    
+
 
 ### 127.0.0.1 vs 0.0.0.0
 Which value to use? I'm doing some research on the topic.  
