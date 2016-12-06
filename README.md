@@ -33,6 +33,9 @@ The file can be edited from Terminal with `sudo vim /etc/hosts` or `sudo nano /e
     127.0.0.1   ib.adnxs.com
     127.0.0.1   pixel.alephd.com
     127.0.0.1   cdn.at.atwola.com
+    # SKYPE NEW  7.30.64.105
+    127.0.0.1    sgreen.erne.co
+    127.0.0.1    dps.bing.com
     
     # BitComet (torrent client)
     127.0.0.1	inside.bitcomet.com
