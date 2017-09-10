@@ -9,16 +9,13 @@ The file can be edited from Terminal with `sudo vim /etc/hosts` or `sudo nano /e
 
 
     ## Invasive Adware
-    # Block Spotify banner ads
-    127.0.0.1     pubads.g.doubleclick.net
-    127.0.0.1     securepubads.g.doubleclick.net
-    
-    # Spotify 1.0.36.124.g1cba1920
-    127.0.0.1	video-ad-stats.googlesyndication.com
-    127.0.0.1	tpc.googlesyndication.com
-    127.0.0.1	pagead2.googlesyndication.com
-    127.0.0.1	redirector.gvt1.com
-    127.0.0.1	adeventtracker.spotify.com
+    # Block Spotify ads blocker (video + banner)
+    0.0.0.0 ads.pubmatic.com
+    0.0.0.0 spclient.wg.spotify.com
+    0.0.0.0 www.googletagservices.com
+    0.0.0.0 pubads.g.doubleclick.net
+    0.0.0.0 securepubads.g.doubleclick.net
+    0.0.0.0 gads.pubmatic.com
  
     # Block Skype banner ads
     127.0.0.1   rad.msn.com
