@@ -1,4 +1,10 @@
 # dns
+
+I switched from manually editing my local hosts file to using [Pi-hole](https://pi-hole.net/). Pi-hole is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) that runs on local hardware (for example a Raspberry-Pi or an old laptop). The advantage is that it can block ads and tracking for all other devices in your local network. Exactly, that means smartphones too!
+
+[Pi-hole](https://pi-hole.net/) offers cool stats, a one click "block this domain" functionality and general peace of mind as it has a big list of denied trackers. Combined with a browser like [Vivaldi](https://vivaldi.com/) it makes the modern web less annoying.
+
+## Previous content
 List of addresses to include in a machine's "hosts" file for a better life.
 
 The *hosts* file in **Windows** is located in the following path `%SystemRoot%\system32\drivers\etc\hosts`.
